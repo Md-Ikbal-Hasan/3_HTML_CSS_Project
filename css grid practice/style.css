@@ -1,0 +1,14 @@
+#main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: .5em;
+}
+
+.child{
+    background:#c23616 ;
+    padding: 5px;
+    color: #fff;
+}
+.child:nth-child(odd){
+    background: #192a56;
+}

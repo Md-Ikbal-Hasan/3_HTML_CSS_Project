@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox Practice</title>
+    <style>
+        .container {
+            width: 100%;
+            background: rgb(70, 63, 63);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            /* height: 100vh;*/
+            /* flex-wrap: wrap; */
+        }
+
+        .container .cards {
+
+            background: white;
+            color: black;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 3px 1px 2px black;
+
+        }
+
+        .container .cards h2,
+        p {
+            text-align: center;
+            letter-spacing: 1px;
+
+        }
+
+        .container .card1 {
+            flex: 1;
+        }
+
+        .container .card2 {
+            flex: 1;
+        }
+
+        .container .card3 {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;"> CSS Flexbox Practice</h1>
+
+    <div class="container">
+
+        <div class="cards card1">
+            <h2>HTML</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem enim omnis nihil ad adipisci!
+                Amet, qui iure? Temporibus porro accusamus reprehenderit, eligendi placeat corrupti enim! Impedit
+                veritatis dolorem laborum maxime!</p>
+        </div>
+
+        <div class="cards card2">
+            <h2>CSS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem enim omnis nihil ad adipisci!
+                Amet, qui iure? Temporibus porro accusamus reprehenderit, eligendi placeat corrupti enim! Impedit
+                veritatis dolorem laborum maxime!</p>
+        </div>
+
+        <div class="cards card3">
+            <h2>Bootstrap</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem enim omnis nihil ad adipisci!
+                Amet, qui iure? Temporibus porro accusamus reprehenderit, eligendi placeat corrupti enim! Impedit
+                veritatis dolorem laborum maxime!</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

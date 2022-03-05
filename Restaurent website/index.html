@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Food Restaurent</title>
+    <!--Font awesome link -->
+    <script src="https://kit.fontawesome.com/7b9ac78d92.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            padding: 25px;
+            height: 60px;
+            background-color: black;
+            text-align: center;
+            align-items: center;
+            color: white;
+            justify-content: space-between;
+        }
+
+        header .logo a {
+            font-size: 30px;
+            color: white;
+            margin-left: 20px;
+            padding: 10px;
+            background-color: red;
+            text-align: center;
+            border-radius: 50%;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin-right: 10px;
+            /* background-color: red;*/
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+        nav ul li a {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li:hover,
+        .social-icon ul li:hover {
+            background-color: red;
+            border-radius: 5px;
+        }
+
+        .social-icon ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .social-icon ul li {
+            padding: 10px;
+
+        }
+
+        .social-icon ul li a {
+            color: white;
+            /* background-color: red;*/
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header section start-->
+    <header>
+        <div class="logo">
+            <a href="#"><i class="fas fa-utensils logo"></i> </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Food</a></li>
+                <li> <a href="#">Offer</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-icon">
+            <ul>
+                <li> <a href="#"> <i class="fab fa-facebook"></i> </a></li>
+                <li> <a href="#"> <i class="fab fa-instagram"></i> </a></li>
+                <li> <a href="#"> <i class="fab fa-twitter"></i> </a></li>
+                <li> <a href="#"> <i class="fab fa-linkedin"></i> </a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+
+    <!--Header section end-->
+
+</body>
+
+</html>
