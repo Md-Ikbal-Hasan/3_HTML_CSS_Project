@@ -1,14 +1,19 @@
-#main{
+#main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: .5em;
+    padding: 30px;
+
 }
 
-.child{
-    background:#c23616 ;
-    padding: 5px;
+.child {
+    background: #c23616;
+    padding: 5pxx;
     color: #fff;
 }
-.child:nth-child(odd){
+
+.child:nth-child(odd) {
     background: #192a56;
+    padding: 30px;
+
 }
